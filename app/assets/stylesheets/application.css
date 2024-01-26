@@ -1,0 +1,61 @@
+body {
+    font-family: 'Courier New', sans-serif;
+    background: linear-gradient(45deg, #934328, #3d3c3c);  
+    animation: fadeIn 1s ease-in-out; 
+}
+h1, h2, h3 {
+    color: rgb(157, 105, 105);
+    animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+li {
+    color: rgb(136, 103, 103);
+    font-size: 40px;
+}
+h1 {
+    font-size: 100px;
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation:alternate-reverse;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow: 50px 15px 5px rgba(9, 9, 9, 0.5)
+}
+h3{
+font-size: 30px;
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    color:aqua;
+   transform: matrix(black);
+}
+h4{
+    font-size: 30px;
+    color: rgb(157, 105, 105);
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: rgb(112, 17, 21);
+    text-decoration: none;
+}
